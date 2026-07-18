@@ -43,6 +43,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           mvn sonar:sonar \
-            -Dsonar.projectKey=sauravkumar99_HealthCarePro\
+            -Dsonar.projectKey=sauravkumar99_HealthCarePro \
             -Dsonar.organization=sauravkumar99 \
             -Dsonar.host.url=https://sonarcloud.io
